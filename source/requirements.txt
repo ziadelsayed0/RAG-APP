@@ -1,0 +1,7 @@
+fastapi==0.115.8
+uvicorn[standard]==0.29.0 #work as web server to use fastapi
+python-multipart==0.0.20 #for uploading files to fastapi
+python-dotenv==1.0.1
+pydantic-settings==2.2.1 #used to load data with validation
+aiofiles==24.1.0 # used to save the files as chunks
+
